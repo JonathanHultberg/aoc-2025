@@ -1,0 +1,4 @@
+{
+    "[rust]": { "editor.formatOnSave": true },
+    "rust-analyzer.check.command": "clippy"
+}
