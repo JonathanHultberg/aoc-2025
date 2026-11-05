@@ -14,7 +14,7 @@ fn main() {
             _ => panic!("unknown direction {direction}"),
         };
 
-        dial = (dial + clicks).rem_euclid(100);
+        dial = (dial + clicks).rem_euclid(100); //or ((dial + clicks) % 100 + 100) % 100;
 
         if dial == 0 {
             count += 1;
